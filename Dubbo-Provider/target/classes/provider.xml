@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-4.3.xsd
+       http://dubbo.apache.org/schema/dubbo
+       http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+    <!--指定提供者信息，用于计算消费者与提供者之间的依赖关系-->
+    <dubbo:application name="Dubbo-Provider"/>
+    <!--使用zookeeper注册中心暴露服务地址-->
+    <dubbo:registry protocol="zookeeper" address="39.105.95.62:2181"/>
+    <!--使用dubbo协议(RPC)在20880端口暴露服务(指定通讯协议，端口号)-->
+    <dubbo:protocol name="dubbo" port="20880"/>
+    <!--声明需要暴露出去的服务，ref指向本地需要暴服务的bean对象-->
+    <dubbo:service interface="com.kapcb.ccc.service.IUserService" ref="IUserServiceImpl"/>
+    <!--服务的实现-->
+    <bean id="IUserServiceImpl" class="com.kapcb.ccc.service.impl.IUserServiceImpl"/>
+
+
+</beans>

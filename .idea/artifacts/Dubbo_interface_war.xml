@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Dubbo-interface:war">
+    <output-path>$PROJECT_DIR$/Dubbo-interface/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Dubbo-interface</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="Dubbo-interface.war">
+      <element id="artifact" artifact-name="Dubbo-interface:war exploded" />
+    </root>
+  </artifact>
+</component>
