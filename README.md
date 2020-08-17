@@ -390,7 +390,6 @@ public class ConsumerMainApplication {
 - 记录自己学习`Dubbo`的<strong>学习笔记</strong>还有`Demo`，笔记均在`Demo`注释部分，后续会整理成博客发布在自己的私人博客上。
 - 如果觉得对您有帮助，您的`Start`就是对我最大的帮助。
 - 欢迎互相学习交流，如果项目中有问题的部分可以用邮箱联系我`eircccallroot@163.com`。
-- 欢迎翻阅我的私人博客`https.www.ccaizx.cn`,记录日常学习中的一些技术干货。
 
 
 
@@ -422,9 +421,5 @@ public class ConsumerMainApplication {
     <tr>
     	<td><a style="text-decoration: none;" href="https://github.com/Eircc/JavaScript-Kapcb" target="_blank"><strong>JavaScript-Kapcb</strong></a></td>
         <td><a style="text-decoration: none;" href="https://github.com/Eircc/JavaScript-Kapcb" target="_blank"><b>Web前端JavaScript学习项目(更新中、含笔记)</b></a></td>
-    </tr>
-    <tr>
-        <td><a style="text-decoration: none;" href="https://www.ccaizx.cn" target="_blank" ><b>个人博客</b><a</td>
-        <td><a style="text-decoration: none;" href="https://www.ccaizx.cn" target="_blank" ><b>https://www.ccaizx.cn</b></a></td>
     </tr>
 </table>
